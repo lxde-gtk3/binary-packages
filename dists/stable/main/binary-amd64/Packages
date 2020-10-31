@@ -1,0 +1,1174 @@
+Package: libfm-data
+Architecture: all
+Version: 1.3.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1521
+Breaks: libfm0, libfm1
+Replaces: libfm0, libfm1
+Filename: pool/main/libfm-data_1.3.1-gtk3_all.deb
+Size: 243952
+MD5sum: 1db7be0667ba947a16406bcf72a7e1d4
+SHA1: b1de7cccfe03e07b52d85d8237c671ef2331cb3a
+SHA256: 80e5351bb903f5cf36d9547c7d8295bb48bd4a57f22d80db895da92e849118ee
+SHA512: a3025e0d19e932b6b79171b02e95ecce82a880f1632c349c2d04c4575e8a64c4bfd5aeea5ccb744a8e89a991091efb9e8d89049cb15f4d6f1cfeefcb6e3dc815
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the core library.
+
+Package: libfm-dbg
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 628
+Depends: libfm4 (= 1.3.1-gtk3), libfm-extra4 (= 1.3.1-gtk3)
+Breaks: libfm1-dbg
+Replaces: libfm1-dbg
+Filename: pool/main/libfm-dbg_1.3.1-gtk3_amd64.deb
+Size: 550836
+MD5sum: 5b5cf0d92fc11329710828ec42552ab5
+SHA1: 6871a4cf63c97e6aa10930e8f0e868f6502da93c
+SHA256: 5cd49e6183cb71d509cd34a143188f7d9951684adbd7f43e703ebe80f909a818
+SHA512: dec8e5825ac27e2265b9469d15607f9357faea1873f3f2120ac087b7aa2ddd02d8122cb3a7fd8f2ab2b6bbe684efffa91a26313ab8ee412adcce4217cbdc6d99
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for GUI independent library.
+Build-Ids: d525b3d2a9f5054bd23f174074cd6092cf7dcb62 ebedcd2e35cb1f3ba98114707536cd64ccd54ce6
+
+Package: libfm-dev
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 298
+Depends: libfm4 (= 1.3.1-gtk3), libfm-extra-dev (= 1.3.1-gtk3)
+Suggests: libfm-doc
+Filename: pool/main/libfm-dev_1.3.1-gtk3_amd64.deb
+Size: 58280
+MD5sum: 5bcf8a28bf50c894750eab0910bb8661
+SHA1: e11107fc51172a77a5e4b47b0add90e02fee783e
+SHA256: 08f8e6a22e4691f19af20ece9d3236ef0c087708fc9ceb9cc683d604562ce0f7
+SHA512: f060bb904d18526f18024689ab268eab024856457e668b7699f2539fa99da167f5b8ff504457014a86317c305e8114761f0eace46b78f3a7add50d7ec88565d0
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (core development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for GUI-independent build.
+
+Package: libfm-doc
+Architecture: all
+Version: 1.3.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2376
+Recommends: libglib2.0-doc, libgtk-3-doc
+Breaks: libfm-dev (<< 1.1.1)
+Replaces: libfm-dev (<< 1.1.1)
+Filename: pool/main/libfm-doc_1.3.1-gtk3_all.deb
+Size: 158732
+MD5sum: bf76a095fccebdca9873c918050c9354
+SHA1: 098f1bb7953e298f1e1848f91389355ec0b36043
+SHA256: 4b4b3a336be8255bae5c75f2fad2da786403cb1703ecef14ccbdde13ae91eaba
+SHA512: 3fae77433c10153aac2cc0617fc14f8ca921251021507590fcccb80d7dd4aa3d4ee3a924c3e1c2012ef104162b673f5be1ac96e886431d6b5b056380b105bab3
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (development documentation)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development HTML documentation.
+
+Package: libfm-extra-dev
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: libfm-extra4 (= 1.3.1-gtk3), libglib2.0-dev
+Breaks: libfm-dev (<= 1.2.4-1)
+Replaces: libfm-dev (<= 1.2.4-1)
+Filename: pool/main/libfm-extra-dev_1.3.1-gtk3_amd64.deb
+Size: 24372
+MD5sum: 4368a2d935f11e5bcbc3fab6e84762e8
+SHA1: e3c48067597ff4c2cbf9ba562f2a6eedec868d11
+SHA256: 2419318b4398803a756ab3b5cdfa8c2c1bd258628e3b71ab9c30c281e1483901
+SHA512: fe1ace2085097783981aeaa8e1e108a9f1864c3d2c44e6a6ad5a2640ed5057d5da2de837fb89bf4735389aed24c12c91167b6e7de458ab518ebdfbb9b4325cb5
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm-extra development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for libfm-extra library.
+
+Package: libfm-extra4
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 71
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3)
+Filename: pool/main/libfm-extra4_1.3.1-gtk3_amd64.deb
+Size: 32172
+MD5sum: 7de7d2cf133abd810e7d136b81b7dcb3
+SHA1: 69ff74ee7ad64c391f3a0b51f0836fcee25afb77
+SHA256: 735174ac9638a402186230ea20cc3aaf8e2138b0e1e90ff8806fc5b125030aa2
+SHA512: 1d58758c8b1ee216ab53c688736969e1e7e125ad8871ee0d54ead46a254fd0566c09281691a68d8af53da09d7fa939b1431bd58f9444dea48ed0617dcdbf77b4
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (extra library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains standalone library which extends libfm.
+
+Package: libfm-gtk-data
+Architecture: all
+Version: 1.3.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 161
+Breaks: libfm-gtk-bin (<< 1.0), libfm-gtk0
+Replaces: libfm-gtk0
+Filename: pool/main/libfm-gtk-data_1.3.1-gtk3_all.deb
+Size: 35176
+MD5sum: 42fa1148b667feec0c774ea3f65d36a1
+SHA1: 030fa80afb24522bb8164388254ef01ba78ca61a
+SHA256: f99cab429fef943bfd6e8fd51454566775d3d407c1d4e94cd5fb3dbd7069f498
+SHA512: a5a541a91ad7c7b5946e63730aeac8a9fdc5822736eff89b3748d117678bcfb4a616c9a2511f56b80ac8bb8161a7214306f12d1a20a761dd79d1cb195b73b284
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ library common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the GTK+ library.
+
+Package: libfm-gtk-dbg
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 792
+Depends: libfm-gtk4 (= 1.3.1-gtk3)
+Breaks: libfm-dbg (<< 1.0.2)
+Filename: pool/main/libfm-gtk-dbg_1.3.1-gtk3_amd64.deb
+Size: 695384
+MD5sum: dd743a4886a0fad72397f0f7431620c9
+SHA1: 3d00bc47e24e2d12243150b2b12ceef7eff6e95d
+SHA256: 84912a6b48d46efc096636e4050ff1d9442fe15d2006588bf59b3c514c57f964
+SHA512: 9e6494b909d42917270c1907550bddf8722208b13f657d2f81dc0e3d2eb964b668d2f4b2048074299cee69feef9dc55e020581a0300127a3e6819e4771610dde
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm-gtk debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for GTK+ library.
+Build-Ids: 7d1c0833c39571078e686307948c12622a74b926
+
+Package: libfm-gtk-dev
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 37
+Depends: libfm-dev (= 1.3.1-gtk3), libfm-gtk4 (= 1.3.1-gtk3), libgtk-3-dev
+Breaks: libfm-dev (<< 1.0.2)
+Filename: pool/main/libfm-gtk-dev_1.3.1-gtk3_amd64.deb
+Size: 22668
+MD5sum: 52747568cb20bbcb7ee118e5a9af4e97
+SHA1: 861927b72d25ebe57eeaf8561bd6f1876997418c
+SHA256: a3e246849b5dbcac613216e012568ca1efb3f9bf5d8a0a3424402ca8281fd5b2
+SHA512: 36ebee31b99e52edfe5a452220fda4e48a9a6aee28c2d0dd2d2713975ea39b3bee95e8321ac8a990b0336cbb388d81a238e158828e570010af2b674d6936a1d9
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ GUI development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for builds using GTK+ library.
+
+Package: libfm-gtk4
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 481
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libfm4 (= 1.3.1-gtk3), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.1.4), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libfm-gtk-data (>= 1.2.0~)
+Recommends: eject
+Suggests: libfm-tools, nautilus-actions
+Filename: pool/main/libfm-gtk4_1.3.1-gtk3_amd64.deb
+Size: 163724
+MD5sum: 7d8b3b62306fb9e51aabee2d3600d9b9
+SHA1: 205fb1071cd04478ebd0de71a5564cdc13964f31
+SHA256: 954ea495301b16de561f9c4be62ef24f0751e95159709100789fff0e14a545bf
+SHA512: 2a0e57bb26699f6a920e6d95e686c12e4b114aa2d7f0aec658dc2fedf1294389f9abdf87d082fe4d55370df2a23ff69a54c3d9e96d06e617e16d41ba4264f072
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ 2.0 GUI library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains the GTK+ version 2.0 GUI.
+
+Package: libfm-modules-dbg
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 227
+Depends: libfm-modules (= 1.3.1-gtk3)
+Filename: pool/main/libfm-modules-dbg_1.3.1-gtk3_amd64.deb
+Size: 159760
+MD5sum: 80acb45cbda7b041dad142afa94efebb
+SHA1: 55943d99e932092e392ad3fe729eb62faa4e7cea
+SHA256: 80b5a1663c09de04286bc48cd91215ff2cdde2187eed95d2e3845f5f2bd5947a
+SHA512: 24b8adf1079b0143cc2b0f760da789d13f2b2353078cb74bcc29bd90dd258ea9814bb1cd27abb7592b787558085609541db575017d846dfcdf6600ac8eec7eb7
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm-modules debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for libfm modules.
+Build-Ids: 528d64dbfa872e8aee04836f747d8eb8c640a434 600245b709fd0b5749a6eaa5509f21f95d612746 a2d6b075ad75741fce329a23a7c41f475cb5386c d6aaef573bd77cc5aad311afa2d6fa0a7de9f198 dd69da65ba8efd3f91e415f1ed1874c16f2f0862 e1dec5ab1a6c6d4aa73c32b7114ba158b195e98a
+
+Package: libfm-modules
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 184
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libfm-extra4 (>= 1.2.0), libfm-gtk4 (>= 1.3.1-gtk3), libfm4 (>= 1.3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: pool/main/libfm-modules_1.3.1-gtk3_amd64.deb
+Size: 52252
+MD5sum: 0b5a7fccd03c43e8bd2cc63413863564
+SHA1: c45e0feda53b997e9403bc06fc9c87ae0273c5ed
+SHA256: 744639cfcb07d7a6ae2b035c0bfe463f1320fb3402582ea2750bc824a44a914a
+SHA512: f42f859a2f78bc2bc97a772ad52579e573f2f771085c0737ccd5409f13e3babdd2a5aee934217b720b7c83a8b590647036efd8fbe8c4866dec9652837dd3c32e
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (loadable modules for library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains loadable modules used by libfm* libraries.
+
+Package: libfm-tools-dbgsym
+Architecture: amd64
+Version: 1.3.1-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: libfm-tools (= 1.3.1-gtk3)
+Filename: pool/main/libfm-tools-dbgsym_1.3.1-gtk3_amd64.deb
+Size: 27524
+MD5sum: 7be14ad9ddc17a4adbd3b65953e9dc25
+SHA1: 95acb7134aeb64ed49dceab990abf1d29ce6d50a
+SHA256: 32cf3f966ce415398131f06972981d894557c34f4130d5eb1d233948cdbf96d9
+SHA512: 92f671ed2d8c7a6556aead114084f51e8f96e9fd659c7cce2e744068a7da64fdd6070068d2984fbf35cd296c408ac56d36447d2f5f89e62bade45fe88c58fad8
+Description: debug symbols for libfm-tools
+Build-Ids: 10009dcb01808b9a8adde433f4fd4a9cecbad092 37908a12984d18a6cabd2f9ccf115c750962dd08
+
+Package: libfm-tools
+Architecture: amd64
+Version: 1.3.1-gtk3
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 87
+Provides: libfm-gtk-bin, lxshortcut
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.3.1-gtk3), libfm4 (>= 0.1.99), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.9.10), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libfm-modules
+Conflicts: libfm-gtk-bin, lxshortcut
+Replaces: libfm-gtk-bin, lxshortcut
+Filename: pool/main/libfm-tools_1.3.1-gtk3_amd64.deb
+Size: 34272
+MD5sum: 0f4d1f2e2c90ad42b7b6c6f1695a6660
+SHA1: 30f36717b45282af628823386c6ef4fcbc8c2a62
+SHA256: 55c7a0e609fccebd99310c0ffc9e4f9e8ce770aca6c195ae6b0d2156e02a9f17
+SHA512: 9ad4bdbd0bcd8403013490e6302071c60aefef0d5caec2e003ba987573f7e9d5425eaa404673621d7d4d19f86906aab48379b2bf4cc55699105d22850fc83380
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (utilities)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains applications libfm-pref-apps and lxshortcut.
+
+Package: libfm4
+Architecture: amd64
+Version: 1.3.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 364
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.37.3), libmenu-cache3 (>= 0.5.0), libfm-data (>= 1.2.0~), lxmenu-data
+Recommends: libfm-modules
+Filename: pool/main/libfm4_1.3.1-gtk3_amd64.deb
+Size: 130764
+MD5sum: cf9e0626cb52f05afc89f284905af202
+SHA1: 11eb5343feed6542d410472e2d9e589fc223cba4
+SHA256: f689ba9386e6b3c3b4a7b9822467fcbef5f2e4b3915acf9d4a1385655c29f3cc
+SHA512: dde76606615f36f3a24a0bd70121c466917fb1256a0e8a57e098abbbec377e9bb13e28c51e1466daeefc78379a7a429f529ba537d5ad9ae5500e2bac8de5859f
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (core library)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ Some features:
+  * Desktop-independent, following FreeDesktop standards;
+  * Fast, light on memory usage, and responsive - well suited to
+    less powerful hardware such as netbooks and thin clients;
+  * Uses GIO/GVFS (like Nautilus) for Trash support and access to
+    remote file systems (FTP, SFTP, WebDAV, Windows shares, etc.);
+  * Clipboard operations are compatible with GTK+/GNOME and Qt/KDE;
+  * Supports both Drag-and-Drop, and the X Direct Save protocol;
+  * Reusable design with the core functions separated out to
+    simplify porting to other GUIs.
+ .
+ This package contains the core library.
+
+Package: lxappearance-dbg
+Architecture: amd64
+Version: 0.6.3-gtk3
+Priority: extra
+Section: debug
+Source: lxappearance
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: lxappearance (= 0.6.3-gtk3)
+Filename: pool/main/lxappearance-dbg_0.6.3-gtk3_amd64.deb
+Size: 64272
+MD5sum: cf499b0307770174d6e47efda0b35ceb
+SHA1: 43895258b17062e4674f5e0bb892a2bcdb140569
+SHA256: 26e25f6872c97e3ffeeca2d4de75e614e0a8332d7319604e1d9f1d8f99583490
+SHA512: 9410a38f7ed032610fa454b795376c701121015c17f25fa1c2d1691c20e9ae7fe67583dd38d9c9552109688e8de47b9bcd7d8d63d66c679c16b9bc4116f5461a
+Homepage: http://www.lxde.org/
+Description: LXDE GTK+ theme switcher (debug)
+ LXAppearance is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: b3b63c4742aa75465ec6292d8af1ad3b174ac777
+
+Package: lxappearance
+Architecture: amd64
+Version: 0.6.3-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 547
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6
+Recommends: gtk2-engines, lxde-settings-daemon
+Filename: pool/main/lxappearance_0.6.3-gtk3_amd64.deb
+Size: 81804
+MD5sum: c579bbcc196ce58ab918b078362c55c2
+SHA1: 52b127e7ff123e2c29bd42faf9012a1a21a7b30f
+SHA256: 6c2a184984aac72c933b7044386dd5695732adad290304ac593c988dec9f0217
+SHA512: 003aa5f2c4d0ccab53ab2655a8da289f3798eba9f5d8f0b8335e5c0f476f3e277b85986bc43a7794ab2b6855f1bd1a11b93717bd5529bf29a8960e32d89c415e
+Homepage: http://www.lxde.org/
+Description: LXDE GTK+ theme switcher
+ LXAppearance is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is a new feature-rich GTK+ theme switcher able to change GTK+ themes, icon
+ themes, and fonts used by applications. GNOME/KDE/Xfce user may use build-in
+ theme, this works for GTK+ based lightweight desktop Environment.
+ .
+ Features:
+ .
+  * Choose GTK+ theme
+  * Choose icon theme
+  * Install new icon theme
+  * Choose their favorite font
+  * Choose toolbar style
+  * See changes immediately in preview area
+
+Package: lxde-common
+Architecture: all
+Version: 0.99.2-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 913
+Recommends: lxde-session, lxde-core, pcmanfm, lxpanel, lxtask, lxrandr, lxsession-logout, lxlock
+Suggests: lxlauncher
+Filename: pool/main/lxde-common_0.99.2-gtk3_all.deb
+Size: 807936
+MD5sum: afd8a30536b09b3d18e0fc32ba82964d
+SHA1: a5bae79bbb42287d998fcac8f2651ca50f1855be
+SHA256: 72ff7d652b4d434efad0809524f37c476c159cd85a3fa816615c1e16b1f57122
+SHA512: 9eccdea87009f250b8e679e33ab7841fd75d4c4a1f91d3e927bc52f76b8114227e89f76ccf96369bd7bc594e25b2b78dd4cb0d7d23872be2d5162138bc1f5e61
+Homepage: http://www.lxde.org/
+Description: LXDE common configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package provides convenient set of configuration files for core
+ LXDE components (pcmanfm and lxpanel). Install all the recommended
+ packages as well to run a minimal LXDE session.
+
+Package: lxde-settings-daemon-dbgsym
+Architecture: amd64
+Version: 0.5.5-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 48
+Depends: lxde-settings-daemon (= 0.5.5-gtk3)
+Filename: pool/main/lxde-settings-daemon-dbgsym_0.5.5-gtk3_amd64.deb
+Size: 31372
+MD5sum: 5b3d99159074e46b6e4b3e89f53e6a6c
+SHA1: b73f670f70edf4e134e372bbea3d758fa12fd159
+SHA256: 8ea63962818aa92043cdccfed3a39ebcfa3e092df9a6746ef4f4b087a0a75c0d
+SHA512: 4b7b2cd52ac0c87688e8b69af017b26a81d68b601366381319d443a7ec4b7e036f09fc4230fc69851d619de18033fa24676c917dbcfb1ef374871689ee83e361
+Description: debug symbols for lxde-settings-daemon
+Build-Ids: fd4b2758f3db36b1adf900726e54d447990ad705
+
+Package: lxde-settings-daemon
+Architecture: amd64
+Version: 0.5.5-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.24.0), libx11-6
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxde-settings-daemon_0.5.5-gtk3_amd64.deb
+Size: 17412
+MD5sum: 8bd83107280138a57cc697643ab75bbe
+SHA1: 7e434bd5978c26b7dbf0b48150292a952a3ced9a
+SHA256: 5dcfe5ca718e7e5776edc28926ab0c1a1d94eb324e963977c70d4a25ff6f4c67
+SHA512: f4141742dec309c6ff6a4ec1502421be7dfb1a43bf4b3335e27f7059ff9e7ea2b7bcb291549f29438a8482e961b221fb3576df53ff4c8d4b0c02b62750aa3112
+Homepage: http://www.lxde.org/
+Description: xsettings compliant configuration manager for LXDE
+ The package contains the LXDE daemon which handles the session settings.
+ It conforms to the FreeDesktop.Org XSettings standard.
+ .
+ LXSession also privides this functionality internally.
+
+Package: lxlauncher-dbg
+Architecture: amd64
+Version: 0.2.5-gtk3
+Priority: extra
+Section: debug
+Source: lxlauncher
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 103
+Depends: lxlauncher (= 0.2.5-gtk3)
+Filename: pool/main/lxlauncher-dbg_0.2.5-gtk3_amd64.deb
+Size: 78104
+MD5sum: baf56c5a759a2bf9900bb11190293147
+SHA1: 35f0b9cd443dc15ec2ef7a03d0d67380b18d73a9
+SHA256: 85dba37f9d0c1816225dd7950c9190a3588bfa8458c104cd7c4ea007256ce5c3
+SHA512: 1256a7a07f477be62b77d52130ccd9da341c8289254c63f2db41e86fb10b870e0991efb03a27d37c030f14d73aadb174876ebf91d9036aa393f2a1a2b5d57503
+Homepage: http://www.lxde.org/
+Description: LXDE launcher for netbooks (debug)
+ LXLauncher is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: 416ab1b5339a38cb9c2f5a176d3c4b888dc1f08a
+
+Package: lxlauncher
+Architecture: amd64
+Version: 0.2.5-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 344
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.4), libx11-6, lxmenu-data
+Recommends: gnome-icon-theme
+Filename: pool/main/lxlauncher_0.2.5-gtk3_amd64.deb
+Size: 46740
+MD5sum: 0965f0d4f2ef8999cb3319e30026d29e
+SHA1: 717d54ff5abd187613715320457d69a5958a9be4
+SHA256: d884d89ecada264eed759f245a811d12e77c8244a5fda024ec357760f1212b21
+SHA512: e1a77b973c88348a9992107111d902e2fb94c8ec5641a5e4121e0e0c7ad9d4fa638e28d96868ceac6b9964dedf5bf0e6b5fdac4e00464c8dbbe0282ec7f3c1a4
+Homepage: http://www.lxde.org/
+Description: LXDE launcher for netbooks
+ LXLauncher is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is a Easy-Mode launcher for netbooks and subnotebooks like the EeePC.
+ It's standard-compliant and desktop-independent. It follows freedesktop.org
+ specs, so newly added applications will automatically show up in the launcher,
+ and vice versa for the removed ones.
+
+Package: lxlock
+Architecture: all
+Version: 0.5.5-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 23
+Depends: light-locker | xscreensaver | gnome-screensaver | i3lock | suckless-tools | slim
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxlock_0.5.5-gtk3_all.deb
+Size: 9628
+MD5sum: edb6df1d3542cdc92234bb29dc10a5c5
+SHA1: 7e722f9691596c8daf843e47c6a87e40db3fd141
+SHA256: 74d56f79773debc32814cd5daf562b67c571b01b48999910de575cb54bfc8d79
+SHA512: 79b089ac087d7c7682323c2dbd40b55abe2b93b088e28c52bf9b583635ebbfc2cb6012e47de3a7a25a315888effda02fee79b6d091e675d5f80724fc70bb6c2a
+Homepage: http://www.lxde.org/
+Description: simple locking utility for LXDE
+ LXLock is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It's a simple locking utility for LXDE.
+
+Package: lxpanel-data
+Architecture: all
+Version: 0.10.0-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2800
+Breaks: lxpanel (<< 0.7.0)
+Replaces: lxpanel (<< 0.7.0)
+Filename: pool/main/lxpanel-data_0.10.0-gtk3_all.deb
+Size: 1066140
+MD5sum: aed457f001b53dc86130683dadd55c24
+SHA1: 419ef88e63ca0d5792adf5f1fd623ae4f4e18f23
+SHA256: 7c472b68e760a98374fbaae140b453816cf34f30c61176c21777cc24a5dcf4c6
+SHA512: 4f672f8b14989b53e2088f86894c509689411130f4af4fc7c4e6fd01600aeac0dfc820c060a3aa357a61b478853e0a2e24a6eec412339cb2bc2514a9d89199c9
+Homepage: http://www.lxde.org/
+Description: LXDE panel (data files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the data required for panel.
+
+Package: lxpanel-dbg
+Architecture: amd64
+Version: 0.10.0-gtk3
+Priority: optional
+Section: debug
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1199
+Depends: lxpanel (= 0.10.0-gtk3)
+Filename: pool/main/lxpanel-dbg_0.10.0-gtk3_amd64.deb
+Size: 993464
+MD5sum: a718525de9ab6e852b64a9dedcf774e9
+SHA1: 1d1576ba8073b88f4a26900803cf0bf9e48073d7
+SHA256: 661e60c173297d3b8de9118c6283f1d30611af62e2043e8290898d2ff4990faa
+SHA512: 33387d766dd3c0fcaa1d66da306f564916a66c862c203c056d49e93d8332f1780c2ee3314e75b7120ae810c2046d78bbd20018f10aabaafd8f58e52c5c336f0d
+Homepage: http://www.lxde.org/
+Description: LXDE panel (debug)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: 06ad7350dee6ee6a6face245a06d3abd027d7e69 2a1798c9e1b9a289f264217a58c84c8a524a5519 32f72b3d38ecc442bac8ffd9d08f0db239432918 34a7ec077b9129e9f3b66e3dfb88fe6d57dfe726 399d433c18836004095d039a34d5042a414f0480 807cb2075b19a12d36f9080482c770d3ba4580ff 845dacfadefabb5f325fa7f1456b9d28b583289f 923f55b8bc89cfe5066390486f346802b80e647f a51e38fc53344ed81892a98005aa587cd5ffe679 a6e5b473ab2af9253e0bbea0feb161a53e754d84 b2638b3a43e0284dc71c4b87f224927ef6140d22 b9ad00e32f643f70a7a5215ac125e74ab2b8c2ac bc5baa13679da40ac81c8198765b1a97a03c5daa c8797d954a6486de151b2aeceba4277895a22546 d7cb078e3e6017cac65a34495389029bbe9d5383
+
+Package: lxpanel-dev
+Architecture: amd64
+Version: 0.10.0-gtk3
+Priority: optional
+Section: x11
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 78
+Depends: lxpanel (= 0.10.0-gtk3), libgtk-3-dev, libfm-gtk-dev (>= 1.2.0)
+Breaks: lxpanel (<< 0.8.2)
+Replaces: lxpanel (<< 0.8.2)
+Filename: pool/main/lxpanel-dev_0.10.0-gtk3_amd64.deb
+Size: 29960
+MD5sum: 0eb1a8380c9457b816bf808e59b1c793
+SHA1: 2127620aff416c2fb818b673d4ee10f78c7accb1
+SHA256: f5b3828d4f2ac1a3649a73cc20be128d6aadd4a7395cfa8677fafa90fb6c28ff
+SHA512: 8a3ade3551aee43658237dada861e366cb7b9a5ca108b763c8921b5a0120684289ba3c1d4d2e8c42354905f3f7843296ffea864c8223b02cc52341123121e9b9
+Homepage: http://www.lxde.org/
+Description: LXDE panel (plugins development files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains header files required for plugins development and
+ depends on other relevant packages for such task.
+
+Package: lxpanel
+Architecture: amd64
+Version: 0.10.0-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 811
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcurl4 (>= 7.16.2), libfm-gtk4 (>= 1.3.1-gtk3), libfm4 (>= 1.2.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.9.12), libiw30 (>= 30~pre1), libkeybinder-3.0-0 (>= 0.3.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, libxml2 (>= 2.7.4), lxmenu-data, lxpanel-data (= 0.10.0-gtk3), libfm-modules
+Recommends: xkb-data, lxterminal | x-terminal-emulator, pavucontrol | gnome-alsamixer, libnotify-bin, notification-daemon
+Suggests: menu, firefox-esr | firefox | www-browser
+Filename: pool/main/lxpanel_0.10.0-gtk3_amd64.deb
+Size: 216580
+MD5sum: f586487e357147a7dcd5bb558a9d511d
+SHA1: 988ba7ee07dc340c96de1f2125bca9dfb8c5c726
+SHA256: 4824c65d4d9e0820f55bd8160d1d4081cf6549ab716f8b40b93e662880dc9f60
+SHA512: 3cc3c0428bf71deddf0786095f2f1c713c8a242c351451caf55c08fa3ca4613792e6a5f35bcfb3c1ca30734322e7776e8799118b73987705bfd63ad66346ff19
+Homepage: http://www.lxde.org/
+Description: LXDE panel
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is derived from fbpanel and includes the following features:
+ .
+  * User-friendly application menu automatically generated from .desktop
+    files on the system
+  * Launcher bar (small icons clicked to launch apps)
+  * Task bar supporting ICCCM/EWMH `urgency' hint (Pidgin IM windows
+    can flash on new incoming messages)
+  * Run dialog (type a command to run, without opening a terminal)
+  * Net status icon plug-in (optional).
+  * Volume control plug-in (optional).
+  * Notification area (system tray).
+  * Digital clock.
+  * Keyboard LEDs plug-in (display caps/num locks).
+  * lxpanelctl: control lxpanel from other programs.
+    For example, "lxpanelctl run" will show the Run dialog in lxpanel,
+    and "lxpanelctl menu" will show the application menu. This is
+    useful in combination with window manager key bindings.
+
+Package: lxpolkit-dbgsym
+Architecture: amd64
+Version: 0.5.5-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: lxpolkit (= 0.5.5-gtk3)
+Filename: pool/main/lxpolkit-dbgsym_0.5.5-gtk3_amd64.deb
+Size: 21784
+MD5sum: 633de3f8f935e9306c2a2bcdf6740dd2
+SHA1: 3c28241e70c6893293c2cc2978dd3aa8ef205f97
+SHA256: 2ff469bedc9d0194d9547d1fe40a6d66528391a9d4f3304c7e0fe05b0fb4cda4
+SHA512: 88a5ca58d5fc7b806c5443beacbc7912065ef1a78657e07eeb3eb3fde7faf4aa263f1f7320694f11ef6a5ad2378cc19c841a4859a54a837a7fa970c3b935da30
+Description: debug symbols for lxpolkit
+Build-Ids: 2f1b4495a5d79d3d131e45877e9df8d7cec9c712
+
+Package: lxpolkit
+Architecture: amd64
+Version: 0.5.5-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 51
+Provides: polkit-1-auth-agent
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-agent-1-0 (>= 0.94), libpolkit-gobject-1-0 (>= 0.94), libx11-6, lxsession-data, policykit-1
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxpolkit_0.5.5-gtk3_amd64.deb
+Size: 16068
+MD5sum: 4f08d5520c331556369e59a6909c4884
+SHA1: 74fc0477fdd1399639d183d394d4bc5446ea7e83
+SHA256: 2f52f8f983a5710a15b61062070853fd9915e7b08415ed3ce8ad0eea487c21dc
+SHA512: ea7c7d5da4a763b06379e445b43e7ed64156f2d25c724d8a7815bda2e1665cc70adac9c3c9d32c3d4954dfca5c3b0eee03eaea997149e4305a966581518d1e73
+Homepage: http://www.lxde.org/
+Description: LXDE PolicyKit authentication agent
+ LXPolkit is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It's a simple PolicyKit authentication agent.
+
+Package: lxrandr-dbg
+Architecture: amd64
+Version: 0.3.2-gtk3
+Priority: optional
+Section: debug
+Source: lxrandr
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 45
+Depends: lxrandr (= 0.3.2-gtk3)
+Filename: pool/main/lxrandr-dbg_0.3.2-gtk3_amd64.deb
+Size: 26588
+MD5sum: c636f9caf0be69234038a73c3f1296e0
+SHA1: af3dad4ebdff3b21da52e12e3037216f92c7099e
+SHA256: 8bcfd6528877c483b86cc48f8970cdd0024008994c55e0bef7c3f47d29d8a88a
+SHA512: f9e5030b17d1285e6944cb19ceecd8d49e6a4bd764b880a26703ca12677b4662d19d70cdb03af5e3643cdf01293d53c53cb1ad72484485d2e0beceeb1a13463b
+Homepage: http://www.lxde.org/
+Description: LXDE monitor configuration tool (debug)
+ LXRandR is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: f7666e0966b035078bfa9fcea4af59da7dc27b5d
+
+Package: lxrandr
+Architecture: amd64
+Version: 0.3.2-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 400
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), x11-xserver-utils
+Filename: pool/main/lxrandr_0.3.2-gtk3_amd64.deb
+Size: 52216
+MD5sum: 4642f548cc32cf776306b50677a21283
+SHA1: e0405b01da8f5fece27eaf73cf40580c5c2245b6
+SHA256: 7a432e7c72d8a57d2197da11c20fb6d657883b579ee3355208740a4197755c8f
+SHA512: f1655946d0494e5cd370654ea5ef6f923a9f812fdb172ca5c4cd874c201e1be77731f194621d3044da431bd54d32343372e8676e89aa8bce2648a49343e151d0
+Homepage: http://www.lxde.org/
+Description: LXDE monitor configuration tool
+ LXRandR is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This is a very basic monitor config tool utilizing the X extension called
+ RandR. It can let you change the screen resolution on the fly. Besides, when
+ you run lxrandr with external monitor connected, its GUI will change, and show
+ you some quick options to get your projector or external monitor working
+ correctly.
+ .
+ This tool doesn't aim to be a full randr frontend. If you need the full power
+ of RandR, get xrandr (console) or grandr (GUI) and read some tutorials.
+ .
+ LXRandR only gives you some easy and quick options which are intuitive. It's
+ very suitable for laptop users who frequently uses projectors or external
+ monitor and just want to get their work done without reading a lot of
+ "geek-centered" manuals or command line tutorials.
+
+Package: lxsession-data
+Architecture: all
+Version: 0.5.5-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 738
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxsession-data_0.5.5-gtk3_all.deb
+Size: 121576
+MD5sum: 1b1a3218bab47d9442ed01969fcbf4df
+SHA1: 27c0096f095d170a8aac848d69c53702724b2401
+SHA256: fbd987a91dd736a891faabfb2015966f4b087787d1dc88e75bea230505378e30
+SHA512: 8c35420bca00c0d4138faa5b4fff9eed403c15cc5b65374d607b0389eb5be4ce5f9cdb6114be1cce14f8cfcc22d2fd85e052d070385ae583977a6a933c671366
+Homepage: http://www.lxde.org/
+Description: Common files for lxsession
+ LXSession is the default session manager for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ This package provides common files for lxsession and supplementary packages.
+
+Package: lxsession-dbgsym
+Architecture: amd64
+Version: 0.5.5-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 560
+Depends: lxsession (= 0.5.5-gtk3)
+Filename: pool/main/lxsession-dbgsym_0.5.5-gtk3_amd64.deb
+Size: 438764
+MD5sum: 1e814a8c514faf545c7dec224ed16ad7
+SHA1: 8887123d99f0ce2afca8c8be6053e8973a0600c7
+SHA256: 7cf63d28142d98f190244fb12105120d033ef41a57648c67ca40667a2c9e15e0
+SHA512: e33d5d45bffbbe573fc229d262aede71554c9409b78ce3d1a04bfcb1de67e6f58be77cb701c5da31aab7726004491499e6ef6214df8102478cae0f52c69c2340
+Description: debug symbols for lxsession
+Build-Ids: 0e1e7a5967b4f35db1177001c47d97838cf4367d 1c2f5e5b76ed8d2ad9ddec6019fc7a185cce72ec 1ddac8d31f2f9feac9361c131b12288cbd356fc8 3ce1a8925e61ae6819b5ed121036a230cc0833ae
+
+Package: lxsession-default-apps-dbgsym
+Architecture: amd64
+Version: 0.5.5-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 230
+Depends: lxsession-default-apps (= 0.5.5-gtk3)
+Filename: pool/main/lxsession-default-apps-dbgsym_0.5.5-gtk3_amd64.deb
+Size: 194928
+MD5sum: d2541cd0268214788c6667c3bde09201
+SHA1: 26d04b82bba72cec01d8e58eccf01a674dbbdff3
+SHA256: d867a681df0ddf14b409c414ace8cbc0c9c9eaf006ad172910832cd586fe4e1a
+SHA512: 89d107099c82881e014359225d813c4833f4c78c1369a4bd7833fa3deb084e6667c96048069e553a77d7292722178e87f2d54d638b3a1a3a6eb3c0eda848f5ff
+Description: debug symbols for lxsession-default-apps
+Build-Ids: c346d0c0d78ef7af966cc1ec0e9d65fc4757c144
+
+Package: lxsession-default-apps
+Architecture: amd64
+Version: 0.5.5-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 471
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, lxsession, lxsession-data
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxsession-default-apps_0.5.5-gtk3_amd64.deb
+Size: 54656
+MD5sum: 44613953c8e6846d9dfad44fcc412d5c
+SHA1: dce125a3c99886800a854567741bfc61a2165d5b
+SHA256: b7ca810d40ff330d0ae0c75c934d4fbf22e6ebd19bd6dd6c7833688eea0eca7f
+SHA512: dc19d333506f04aa3abf7a1d90c9bd163db0006def870a1b44aec61db3040580749724bfb1d9e2f7a5a9b78b918abf34f75ff0115908f01037c495f947c50bb6
+Homepage: http://www.lxde.org/
+Description: utility to configure lxsession and its default applications
+ LXSession is the default session manager for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ LXSession-Default-Apps is an utility to configure lxsession and its default
+ applications.
+
+Package: lxsession-edit-dbgsym
+Architecture: amd64
+Version: 0.5.5-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 34
+Depends: lxsession-edit (= 0.5.5-gtk3)
+Filename: pool/main/lxsession-edit-dbgsym_0.5.5-gtk3_amd64.deb
+Size: 18120
+MD5sum: 7a178ce0e51c7940eb59c8f6d7a43486
+SHA1: 866faae34465fd49c491a3c11e61936d95c1c1e4
+SHA256: 36b83956b8fc1f05c72d05e9e6857ac2e4026f8b55ae9ec4b03f805b17899205
+SHA512: 0c733b50e02446b460ad8d6bc63983d172321a599517ee6de82a6a575d422cc3d3b06f22198cef6e84515dfd995714b9270309399c8f9713a07a00a7d4b3beac
+Description: debug symbols for lxsession-edit
+Build-Ids: e0d1337bdd0074c987762244723f5b506f8c6dee
+
+Package: lxsession-edit
+Architecture: amd64
+Version: 0.5.5-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 67
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), lxsession-data
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxsession-edit_0.5.5-gtk3_amd64.deb
+Size: 19212
+MD5sum: f71bc9ef02d558b20e54a92d82a0b915
+SHA1: 04fc5cea2069378ecbc162c1c9585a6128503e5b
+SHA256: 9a64c6212fe24742d37e10227c405d2eb584b0a1f5041d72ae865d2421c25035
+SHA512: 43ab27080ea6a77420e0b90f17ea805c9821acbe287132eae57eb1321afd04e078a61aac0d899bc1cbe3fff076d7a140ac298aa86d0e414a03707e3fa601c0d0
+Homepage: http://www.lxde.org/
+Description: configure what application start up automatically in LXDE
+ LXSession-Edit is a simple session editor GUI for autostarting applications
+ which follows autostart specs from FreeDesktop.Org.
+ .
+ This package can be used without lxsession package as well.
+
+Package: lxsession-logout-dbgsym
+Architecture: amd64
+Version: 0.5.5-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: lxsession-logout (= 0.5.5-gtk3)
+Filename: pool/main/lxsession-logout-dbgsym_0.5.5-gtk3_amd64.deb
+Size: 25324
+MD5sum: 580fa446acd10e913f1700718b4f754f
+SHA1: 1974913602da95c12fa9db5e55835b147468664c
+SHA256: 770e8aaf941cdb5fe2dbf12dc9e0faaf46e1a01b58916467b85b7713bfd4f157
+SHA512: 7bb54b310a9733b1d9cc1d378e2be2cfe8ad94cd261455e532e31e7f7c28f42f883f9bfb3896ccaa257b339d340a3f01af0fc2a1928d201ab53343499b39fa78
+Description: debug symbols for lxsession-logout
+Build-Ids: 3b995e6b90b2191585140b061d08ad61acb3a571
+
+Package: lxsession-logout
+Architecture: amd64
+Version: 0.5.5-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 57
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, lxsession-data, lxlock | xdg-utils, policykit-1
+Recommends: lsb-release, consolekit | logind | default-logind
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxsession-logout_0.5.5-gtk3_amd64.deb
+Size: 18220
+MD5sum: 437c32e942237b6053048d339cb38248
+SHA1: 943537adf56923515d1f56162fb6a8af65a975aa
+SHA256: 6151f63806d8968eace52f7d25e143b918758ed3e86998d58a39f6816889750a
+SHA512: 4f0c09e6009120ba5e38b0f8d96ca3c8d6b69b1d391ce843dcc5b8f35e9fb6e1599ee3d63fb73e3cd67c567fb3144fa7747f96bba371bcaa21485fda53eb6c77
+Homepage: http://www.lxde.org/
+Description: utility to logout from a LXDE or an Openbox session
+ LXSession is the default session manager for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ LXSession-Logout is a simple utility for stopping or logging out from a LXDE or
+ an Openbox session.
+
+Package: lxsession
+Architecture: amd64
+Version: 0.5.5-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 406
+Provides: lxde-settings-daemon, x-session-manager
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, lsb-release, laptop-detect, lxpolkit | polkit-1-auth-agent, lxsession-data, lxsession-logout
+Recommends: lxde-session, lxsession-default-apps | lxsession-edit, openssh-client | ssh-client
+Suggests: gpicview, lxpanel, pcmanfm, consolekit | libpam-systemd
+Breaks: lxsession-data (<< 0.5.3-1)
+Replaces: lxsession-data (<< 0.5.3-1)
+Filename: pool/main/lxsession_0.5.5-gtk3_amd64.deb
+Size: 109392
+MD5sum: 8e022f8719e7dad75cf900e8dc308b9d
+SHA1: c15c139dcaa1ef27f68a3e418e06ce08164f5c26
+SHA256: 7c0376b8efee0bb2b7ed8c6bcf497132e1fbf32c1bdf8e2dd1d011c2564caa8f
+SHA512: 38eed19be6620912aa8c618b0d20f6fd781a6a231c00b5ab083587ab4db19843da1435c63bfeaee9a3b3dd0129c742c3f19a74847750af6a4d4628a0b60f1c66
+Homepage: http://www.lxde.org/
+Description: LXDE default session manager
+ LXSession is the default session manager for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ It is derived from XSM, has fewer dependencies and more features. It is
+ desktop-independent and can be used with any window manager.
+
+Package: lxtask-dbgsym
+Architecture: amd64
+Version: 0.1.10-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxtask
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 77
+Depends: lxtask (= 0.1.10-gtk3)
+Filename: pool/main/lxtask-dbgsym_0.1.10-gtk3_amd64.deb
+Size: 56672
+MD5sum: 98f4f53a83cd9af43f31655cdf5b64cf
+SHA1: 0cc8c967b5df248ee1a9fcf0bd23d672ed3b7f81
+SHA256: 973470a2c4d1236d10c49bcf31438d1da02c4cdd5e37fc47eb15af89957950e9
+SHA512: 8b14cfdfeb3a97cd4d98f1318191fa8747f12a43add96e9b98d361cd9c3c54c0130504a77950756761004f991af1fad6960aefea4e22d241ad7b497852d4665d
+Description: debug symbols for lxtask
+Build-Ids: 98207daa6c0a3974f279b33cfcbd4790b3cc4a26
+
+Package: lxtask
+Architecture: amd64
+Version: 0.1.10-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 438
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: pool/main/lxtask_0.1.10-gtk3_amd64.deb
+Size: 59620
+MD5sum: 78c5a8755e9af1082ee23a4849de65ec
+SHA1: ac3d6238e236900f9d79fdafee3f34d930bfae13
+SHA256: c10c4ede02ca3b386ea9caad7203a17cd7e3c97d98df2586c2a0a3d5a549abb6
+SHA512: ec2cdf4a2ae2c5cac396c13a4011e7c9f2505d8628b235d50d300ad259bc71bcf278fe1fb4cb41cdbd0980ec750535423de7f8eb4ac84f6c2a6575e45291f7e6
+Homepage: http://www.lxde.org/
+Description: LXDE task manager
+ LXTask is a GUI application for the Lightweight X11 Desktop Environment (LXDE).
+ .
+ LXTask - lightweight and desktop-independent task manager derived from
+ xfce4-taskmanager with all dependencies on Xfce removed, new features,
+ and some improvement of the user interface. LXTask is based on GTK+ toolkit.
+ It allows monitoring and controlling of running processes.
+
+Package: lxterminal-dbgsym
+Architecture: amd64
+Version: 0.3.2-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxterminal
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 105
+Depends: lxterminal (= 0.3.2-gtk3)
+Breaks: lxterminal-dbg (<< 0.3.0-3~)
+Replaces: lxterminal-dbg (<< 0.3.0-3~)
+Filename: pool/main/lxterminal-dbgsym_0.3.2-gtk3_amd64.deb
+Size: 79652
+MD5sum: af9a299b0cd2a1cb9d1a8fa9d177f983
+SHA1: d7e4d838b2c85077bde69287e8c2ba58264f7b40
+SHA256: 843de12db39de21bd1d59a39cad02a6f08f68e9d9ff80841682f317394e9f1fd
+SHA512: 5ddb1a9f8a76f4e3c3d636d3cb468da216495967513e1198c96dd09e9d2788383935fa4e9666214e00cd2548fdfa5c63ac69f02abda493e67e8c01ed1562985e
+Description: debug symbols for lxterminal
+Build-Ids: 4be5f7b39053833a39476ba59d85866224f18706
+
+Package: lxterminal
+Architecture: amd64
+Version: 0.3.2-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 580
+Provides: x-terminal-emulator
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgnutls30 (>= 3.6.5), libgtk-3-0 (>= 3.3.16), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpcre2-8-0 (>= 10.32), libvte-2.91-0, zlib1g (>= 1:1.1.4)
+Filename: pool/main/lxterminal_0.3.2-gtk3_amd64.deb
+Size: 93960
+MD5sum: 3d08a183560cfe3437411eb23e4695e7
+SHA1: 8281dc412e86be4e58d706fa241cde8b4faaf9aa
+SHA256: 805ffe2fd84e034127e1d78d3d86317318a406e2b4b6cb4e7faf1bf766d1e600
+SHA512: 3cb8035c796902cc86eacb88e5d3a3f13bc6df73488acfe074fe4b99cc6a34f43bff978ebe5746595789f623fd0d6ffa74fd3fc63556bf215ee7836c0f12d9fe
+Homepage: http://www.lxde.org/
+Description: LXDE terminal emulator
+ LXTerminal is a VTE-based terminal emulator for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ It supports multiple tabs and has only minimal dependencies thus being
+ completely desktop-independent. In order to reduce memory usage and increase
+ the performance, all instances of the terminal are sharing a single process.
+
+Package: openbox-lxde-session
+Architecture: all
+Version: 0.99.2-gtk3
+Priority: optional
+Section: x11
+Source: lxde-common
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 71
+Provides: lxde-session, x-session-manager
+Depends: lxde-common (>= 0.99.2-1), lxsession, openbox
+Breaks: lxde-common (<< 0.99.2-1)
+Replaces: lxde-common (<< 0.99.2-1)
+Filename: pool/main/openbox-lxde-session_0.99.2-gtk3_all.deb
+Size: 18508
+MD5sum: 2626cf6d9a8a425e2ff21cd7ccd5037a
+SHA1: da227a7643ee99789e4d8922549aed44c33d7cf2
+SHA256: 460feeeb88422e8671fc97a4b3207e224346a27271e1dce3dee2d996f22b6a89
+SHA512: a707c563a2b35bef008a47de9e258be1ad4a9a99496662b3cffb1124562ba868c5b0ab4ffa28bf777cc65eca988580d67ede20529a058423667155a953c1f9cd
+Homepage: http://www.lxde.org/
+Description: LXDE session manager and configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ It's not designed to be powerful and bloated, but to be usable and slim
+ enough, and keep the resource usage low. Different from other desktop
+ environments, LXDE doesn't tightly integrate every component. Instead,
+ LXDE tries to make all components independent, and each of them can be
+ used independently with fewer dependencies.
+ .
+ Features:
+ .
+  * Lightweight, runs with reasonable memory usage
+  * Fast, runs well even on older machines produced in 1999
+  * Good-looking, GTK+ 2 internationalized user interface
+  * Easy-to-use, the user interface is simple, but usable enough
+  * Desktop independent (surprise! Every component can be used without LXDE)
+  * Standard compliant, follows the specs on freedesktop.org
+ .
+ This package depends on minimal set of components (lxsession, openbox,
+ and lxde-screenlock.desktop file), and contains all the session-specific
+ configuration files required to start a LXDE desktop session from a
+ display manager such as GDM.
+
+Package: pcmanfm-dbg
+Architecture: amd64
+Version: 1.3.1-gtk3
+Priority: optional
+Section: debug
+Source: pcmanfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 375
+Depends: pcmanfm (= 1.3.1-gtk3)
+Filename: pool/main/pcmanfm-dbg_1.3.1-gtk3_amd64.deb
+Size: 315436
+MD5sum: 80b03c91ae6fb0ac0b4701d4490c2053
+SHA1: 0ca9af9c3593687310916a2a2f04a7f5ac895ebd
+SHA256: fa4a820ed13ffc76afc0166b50971e6ceaca8d399a48237e1eea58d79db0a129
+SHA512: cda315432e518e492c3930450ea0913e3c013eb0bccea00237df30f974299fed7ce54cf2a603b6a6144686c610cc9072511cf58b5dcaa1bdd4a5276cddbeae02
+Homepage: http://pcmanfm.sourceforge.net/
+Description: extremely fast and lightweight file manager (debug)
+ PCMan File Manager is a GTK+ based file manager. It is a primary file
+ manager for the LXDE but can be used in any other desktop environment.
+ .
+ This package contains the debugging symbols.
+Build-Ids: b6ae266507da7e84f1435075c9dd5c1c7a53f511
+
+Package: pcmanfm
+Architecture: amd64
+Version: 1.3.1-gtk3
+Priority: optional
+Section: utils
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1589
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.3.1-gtk3), libfm4 (>= 1.2.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Filename: pool/main/pcmanfm_1.3.1-gtk3_amd64.deb
+Size: 290172
+MD5sum: 27b110dd7675e6555104896d6304fd00
+SHA1: cf18e4cb129f86c4ff79334f3b9a021d191d6283
+SHA256: 5e8737202a772c7dc877559fb85992e107acd875c6aff1bb383c3cc89a600b24
+SHA512: a99f999775b0e96af3ada186c8f884816602808de3646fd64b44a511b286bb5a24836ad3016509140051d1e36bed7da354abcca159de90da5e37fbc3b7cbcfe1
+Homepage: http://pcmanfm.sourceforge.net/
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+

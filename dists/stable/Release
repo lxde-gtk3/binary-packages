@@ -1,0 +1,15 @@
+Origin: Debian
+Label: Debian
+Suite: stable
+Version: 10.5
+Codename: stable
+Changelogs: https://sulincix.github.io
+Date: Sat, 01 Aug 2020 11:04:59 UTC
+Acquire-By-Hash: yes
+Architectures: amd64
+Components: main contrib non-free
+Description: Lxde-gtk3 for debian
+MD5Sum:  aaf38f75e61e83119553144a35ecd5ac  dists/stable/main/binary-amd64/Packages
+  74ff50285838446ac61be7afdfbe6496  dists/stable/main/binary-amd64/Packages.xz
+  815a03d539bf6cf59c1bb1895917eec2  dists/stable/main/binary-amd64/Packages.gz
+  c762e10eb4cbd1d4dbb15d90ec707b8d  dists/stable/main/Release
