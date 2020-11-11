@@ -1,0 +1,213 @@
+Package: libfm-data
+Architecture: all
+Version: 1.3.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1521
+Breaks: libfm0, libfm1
+Replaces: libfm0, libfm1
+Filename: pool/main/libfm-data_1.3.1-gtk3_all.deb
+Size: 243952
+MD5sum: 1db7be0667ba947a16406bcf72a7e1d4
+SHA1: b1de7cccfe03e07b52d85d8237c671ef2331cb3a
+SHA256: 80e5351bb903f5cf36d9547c7d8295bb48bd4a57f22d80db895da92e849118ee
+SHA512: a3025e0d19e932b6b79171b02e95ecce82a880f1632c349c2d04c4575e8a64c4bfd5aeea5ccb744a8e89a991091efb9e8d89049cb15f4d6f1cfeefcb6e3dc815
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the core library.
+
+Package: libfm-doc
+Architecture: all
+Version: 1.3.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2376
+Recommends: libglib2.0-doc, libgtk-3-doc
+Breaks: libfm-dev (<< 1.1.1)
+Replaces: libfm-dev (<< 1.1.1)
+Filename: pool/main/libfm-doc_1.3.1-gtk3_all.deb
+Size: 158732
+MD5sum: bf76a095fccebdca9873c918050c9354
+SHA1: 098f1bb7953e298f1e1848f91389355ec0b36043
+SHA256: 4b4b3a336be8255bae5c75f2fad2da786403cb1703ecef14ccbdde13ae91eaba
+SHA512: 3fae77433c10153aac2cc0617fc14f8ca921251021507590fcccb80d7dd4aa3d4ee3a924c3e1c2012ef104162b673f5be1ac96e886431d6b5b056380b105bab3
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (development documentation)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development HTML documentation.
+
+Package: libfm-gtk-data
+Architecture: all
+Version: 1.3.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 161
+Breaks: libfm-gtk-bin (<< 1.0), libfm-gtk0
+Replaces: libfm-gtk0
+Filename: pool/main/libfm-gtk-data_1.3.1-gtk3_all.deb
+Size: 35176
+MD5sum: 42fa1148b667feec0c774ea3f65d36a1
+SHA1: 030fa80afb24522bb8164388254ef01ba78ca61a
+SHA256: f99cab429fef943bfd6e8fd51454566775d3d407c1d4e94cd5fb3dbd7069f498
+SHA512: a5a541a91ad7c7b5946e63730aeac8a9fdc5822736eff89b3748d117678bcfb4a616c9a2511f56b80ac8bb8161a7214306f12d1a20a761dd79d1cb195b73b284
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ library common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the GTK+ library.
+
+Package: lxde-common
+Architecture: all
+Version: 0.99.2-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 913
+Recommends: lxde-session, lxde-core, pcmanfm, lxpanel, lxtask, lxrandr, lxsession-logout, lxlock
+Suggests: lxlauncher
+Filename: pool/main/lxde-common_0.99.2-gtk3_all.deb
+Size: 807936
+MD5sum: afd8a30536b09b3d18e0fc32ba82964d
+SHA1: a5bae79bbb42287d998fcac8f2651ca50f1855be
+SHA256: 72ff7d652b4d434efad0809524f37c476c159cd85a3fa816615c1e16b1f57122
+SHA512: 9eccdea87009f250b8e679e33ab7841fd75d4c4a1f91d3e927bc52f76b8114227e89f76ccf96369bd7bc594e25b2b78dd4cb0d7d23872be2d5162138bc1f5e61
+Homepage: http://www.lxde.org/
+Description: LXDE common configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package provides convenient set of configuration files for core
+ LXDE components (pcmanfm and lxpanel). Install all the recommended
+ packages as well to run a minimal LXDE session.
+
+Package: lxlock
+Architecture: all
+Version: 0.5.5-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 23
+Depends: light-locker | xscreensaver | gnome-screensaver | i3lock | suckless-tools | slim
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxlock_0.5.5-gtk3_all.deb
+Size: 9628
+MD5sum: edb6df1d3542cdc92234bb29dc10a5c5
+SHA1: 7e722f9691596c8daf843e47c6a87e40db3fd141
+SHA256: 74d56f79773debc32814cd5daf562b67c571b01b48999910de575cb54bfc8d79
+SHA512: 79b089ac087d7c7682323c2dbd40b55abe2b93b088e28c52bf9b583635ebbfc2cb6012e47de3a7a25a315888effda02fee79b6d091e675d5f80724fc70bb6c2a
+Homepage: http://www.lxde.org/
+Description: simple locking utility for LXDE
+ LXLock is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It's a simple locking utility for LXDE.
+
+Package: lxpanel-data
+Architecture: all
+Version: 0.10.0-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2800
+Breaks: lxpanel (<< 0.7.0)
+Replaces: lxpanel (<< 0.7.0)
+Filename: pool/main/lxpanel-data_0.10.0-gtk3_all.deb
+Size: 1066140
+MD5sum: aed457f001b53dc86130683dadd55c24
+SHA1: 419ef88e63ca0d5792adf5f1fd623ae4f4e18f23
+SHA256: 7c472b68e760a98374fbaae140b453816cf34f30c61176c21777cc24a5dcf4c6
+SHA512: 4f672f8b14989b53e2088f86894c509689411130f4af4fc7c4e6fd01600aeac0dfc820c060a3aa357a61b478853e0a2e24a6eec412339cb2bc2514a9d89199c9
+Homepage: http://www.lxde.org/
+Description: LXDE panel (data files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the data required for panel.
+
+Package: lxsession-data
+Architecture: all
+Version: 0.5.5-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxsession
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 738
+Breaks: lxsession (<< 0.5.3-1)
+Replaces: lxsession (<< 0.5.3-1)
+Filename: pool/main/lxsession-data_0.5.5-gtk3_all.deb
+Size: 121576
+MD5sum: 1b1a3218bab47d9442ed01969fcbf4df
+SHA1: 27c0096f095d170a8aac848d69c53702724b2401
+SHA256: fbd987a91dd736a891faabfb2015966f4b087787d1dc88e75bea230505378e30
+SHA512: 8c35420bca00c0d4138faa5b4fff9eed403c15cc5b65374d607b0389eb5be4ce5f9cdb6114be1cce14f8cfcc22d2fd85e052d070385ae583977a6a933c671366
+Homepage: http://www.lxde.org/
+Description: Common files for lxsession
+ LXSession is the default session manager for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ This package provides common files for lxsession and supplementary packages.
+
+Package: openbox-lxde-session
+Architecture: all
+Version: 0.99.2-gtk3
+Priority: optional
+Section: x11
+Source: lxde-common
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 71
+Provides: lxde-session, x-session-manager
+Depends: lxde-common (>= 0.99.2-1), lxsession, openbox
+Breaks: lxde-common (<< 0.99.2-1)
+Replaces: lxde-common (<< 0.99.2-1)
+Filename: pool/main/openbox-lxde-session_0.99.2-gtk3_all.deb
+Size: 18508
+MD5sum: 2626cf6d9a8a425e2ff21cd7ccd5037a
+SHA1: da227a7643ee99789e4d8922549aed44c33d7cf2
+SHA256: 460feeeb88422e8671fc97a4b3207e224346a27271e1dce3dee2d996f22b6a89
+SHA512: a707c563a2b35bef008a47de9e258be1ad4a9a99496662b3cffb1124562ba868c5b0ab4ffa28bf777cc65eca988580d67ede20529a058423667155a953c1f9cd
+Homepage: http://www.lxde.org/
+Description: LXDE session manager and configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ It's not designed to be powerful and bloated, but to be usable and slim
+ enough, and keep the resource usage low. Different from other desktop
+ environments, LXDE doesn't tightly integrate every component. Instead,
+ LXDE tries to make all components independent, and each of them can be
+ used independently with fewer dependencies.
+ .
+ Features:
+ .
+  * Lightweight, runs with reasonable memory usage
+  * Fast, runs well even on older machines produced in 1999
+  * Good-looking, GTK+ 2 internationalized user interface
+  * Easy-to-use, the user interface is simple, but usable enough
+  * Desktop independent (surprise! Every component can be used without LXDE)
+  * Standard compliant, follows the specs on freedesktop.org
+ .
+ This package depends on minimal set of components (lxsession, openbox,
+ and lxde-screenlock.desktop file), and contains all the session-specific
+ configuration files required to start a LXDE desktop session from a
+ display manager such as GDM.
+
