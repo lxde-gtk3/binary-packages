@@ -1,5 +1,6 @@
 Add Repository and install lxde-gtk3
 <br>
 <br>echo "deb https://raw.githubusercontent.com/lxde-gtk3/binary-packages/master stable main" > /etc/apt/sources.list.d/lxde-gtk3.list
-<br>apt-get update --allow-insecure-repositories
-<br>apt-get install lxde-core --allow-unauthenticated
+<br>curl https://raw.githubusercontent.com/lxde-gtk3/binary-packages/master/dists/stable/Release.key | apt-key add -
+<br>apt-get update
+<br>apt-get install lxde-core
