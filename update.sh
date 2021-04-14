@@ -35,6 +35,13 @@ gzip -k $cachedir/index/dists/stable/non-free/binary-amd64/Packages
 gzip -k $cachedir/index/dists/stable/non-free/binary-i386/Packages
 gzip -k $cachedir/index/dists/stable/contrib/binary-amd64/Packages
 gzip -k $cachedir/index/dists/stable/contrib/binary-i386/Packages
+xz -k $cachedir/index/dists/stable/main/binary-amd64/Packages
+xz -k $cachedir/index/dists/stable/main/binary-i386/Packages
+xz -k $cachedir/index/dists/stable/non-free/binary-amd64/Packages
+xz -k $cachedir/index/dists/stable/non-free/binary-i386/Packages
+xz -k $cachedir/index/dists/stable/contrib/binary-amd64/Packages
+xz -k $cachedir/index/dists/stable/contrib/binary-i386/Packages
+
 cp -rf $cachedir/index/* $srvdir
 echo "Finish indexing" >> $srvdir/dists/index.log
 date >>  $srvdir/dists/index.log
