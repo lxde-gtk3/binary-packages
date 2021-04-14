@@ -22,6 +22,30 @@ Description: file management support (common data)
  .
  This package contains the common data of the core library.
 
+Package: libfm-data
+Architecture: all
+Version: 99.1.3.2-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1555
+Breaks: libfm0, libfm1
+Replaces: libfm0, libfm1
+Filename: pool/main/libfm-data_99.1.3.2-gtk3_all.deb
+Size: 248612
+MD5sum: 7d9601e03e3e6fa731bf58055f858558
+SHA1: a3ab9ef4126d2d053bec58f1e17f4295229b52cf
+SHA256: 5df3f3de092e7e5fc36cacf8ba759a514ba63b8b690623ffd2a9ff706e39e51d
+SHA512: 533b02ce541a3068139b214431c479c11118e2d07c234b29b68a8d2b7a9da2e50f7a393b5bf20846ef844bfd29d9c3254e2f522cfcead09975f65db3bee9ca1c
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the core library.
+
 Package: libfm-dbg
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -48,6 +72,32 @@ Description: file management support (libfm debug)
  This package contains the debugging symbols for GUI independent library.
 Build-Ids: d525b3d2a9f5054bd23f174074cd6092cf7dcb62 ebedcd2e35cb1f3ba98114707536cd64ccd54ce6
 
+Package: libfm-dbg
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 553
+Depends: libfm4 (= 99.1.3.2-gtk3), libfm-extra4 (= 99.1.3.2-gtk3)
+Breaks: libfm1-dbg
+Replaces: libfm1-dbg
+Filename: pool/main/libfm-dbg_99.1.3.2-gtk3_amd64.deb
+Size: 476808
+MD5sum: e195cc112a6d39ff5c66087c549648de
+SHA1: 944b0f0c001672ff0c9980d80808515ccdd8e1be
+SHA256: 1dc496d42f90ecc90fb9974b4297338d2812d310e2becdc9dd2a366f81f573ea
+SHA512: 8d7b7f3f35abfc7db0497262a0f9a333d7d49e75d2abe4eb7737f88e2e41b9f8a0c75a447d91d32ed43dabcb3c54a1ecbac01c94fe123e5cd0004d6cdd1808f9
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for GUI independent library.
+Build-Ids: 1fbfdd2a1be37c7e6ab20719637a3126a51e7d4b ce440d5e8fb928c980b8e5b1c74874e7580282c0
+
 Package: libfm-dev
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -65,6 +115,30 @@ MD5sum: 5bcf8a28bf50c894750eab0910bb8661
 SHA1: e11107fc51172a77a5e4b47b0add90e02fee783e
 SHA256: 08f8e6a22e4691f19af20ece9d3236ef0c087708fc9ceb9cc683d604562ce0f7
 SHA512: f060bb904d18526f18024689ab268eab024856457e668b7699f2539fa99da167f5b8ff504457014a86317c305e8114761f0eace46b78f3a7add50d7ec88565d0
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (core development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for GUI-independent build.
+
+Package: libfm-dev
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 300
+Depends: libfm4 (= 99.1.3.2-gtk3), libfm-extra-dev (= 99.1.3.2-gtk3)
+Suggests: libfm-doc
+Filename: pool/main/libfm-dev_99.1.3.2-gtk3_amd64.deb
+Size: 58964
+MD5sum: e2052540daaac8a82ceae29f25ae95d2
+SHA1: 9d27a5be0a0d470e3335c6421d2db49ef6630c39
+SHA256: f8d734b831a981ee9a914d39c1ccaacccc6469985eb558fb76cc8e4deaffbd79
+SHA512: 06e112ae1b25fe235733346f8892f38b81a809f2bf3e03bbbc036ab78a07f6e7147382a9283da2e8163019ad43696c3ab0d9ebe65aed3105b4eebf499c41c293
 Homepage: http://pcmanfm.sourceforge.net/
 Description: file management support (core development files)
  LibFM provides file management functions built on top of Glib/GIO,
@@ -97,6 +171,31 @@ Description: file management support (development documentation)
  .
  This package contains the development HTML documentation.
 
+Package: libfm-doc
+Architecture: all
+Version: 99.1.3.2-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2262
+Recommends: libglib2.0-doc, libgtk-3-doc
+Breaks: libfm-dev (<< 1.1.1)
+Replaces: libfm-dev (<< 1.1.1)
+Filename: pool/main/libfm-doc_99.1.3.2-gtk3_all.deb
+Size: 158596
+MD5sum: eb53751c73505151274c8dd2875d54d7
+SHA1: 4eb94218d080a3f4f64b5ead7b692ceda4e735dc
+SHA256: 4f3dfb05f0f0f978139e613943fb0814e97217ec1ea056fb8749e0dfa73b665a
+SHA512: cc83e21fe404a649019d254f79ccf1cd9bbcf5dba63b54442a944ff508941a6ab2ecbb28c46556175723ea4e9e585cba714eda0db829c779264a3444d67796b3
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (development documentation)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development HTML documentation.
+
 Package: libfm-extra-dev
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -115,6 +214,31 @@ MD5sum: 4368a2d935f11e5bcbc3fab6e84762e8
 SHA1: e3c48067597ff4c2cbf9ba562f2a6eedec868d11
 SHA256: 2419318b4398803a756ab3b5cdfa8c2c1bd258628e3b71ab9c30c281e1483901
 SHA512: fe1ace2085097783981aeaa8e1e108a9f1864c3d2c44e6a6ad5a2640ed5057d5da2de837fb89bf4735389aed24c12c91167b6e7de458ab518ebdfbb9b4325cb5
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm-extra development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for libfm-extra library.
+
+Package: libfm-extra-dev
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: libfm-extra4 (= 99.1.3.2-gtk3), libglib2.0-dev
+Breaks: libfm-dev (<= 1.2.4-1)
+Replaces: libfm-dev (<= 1.2.4-1)
+Filename: pool/main/libfm-extra-dev_99.1.3.2-gtk3_amd64.deb
+Size: 24856
+MD5sum: 0c5d5098c404b1f34b5d15d7263195df
+SHA1: c3b928ca69f7818c8ae3ea53077ea1748dedc05d
+SHA256: 23c3a1fd14b008f1f215189390d7bbd6af4df6381a93e6cc0aceb4739dca713b
+SHA512: 925fd47c45ce2fa314de28c4b85d036026ed3695778f89eeb6d5936230a118038d9e4de5de80f64f1744d929c068aee6465d6c3f3887ceb69e96aaf25dfda6b0
 Homepage: http://pcmanfm.sourceforge.net/
 Description: file management support (libfm-extra development files)
  LibFM provides file management functions built on top of Glib/GIO,
@@ -145,6 +269,29 @@ Description: file management support (extra library)
  .
  This package contains standalone library which extends libfm.
 
+Package: libfm-extra4
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 71
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3)
+Filename: pool/main/libfm-extra4_99.1.3.2-gtk3_amd64.deb
+Size: 32720
+MD5sum: 08b4c73281551071153e07984877d59e
+SHA1: 5b5433ac1b9f1d7a9ff58e58735c3f20aaac289b
+SHA256: 29f0d216d3b999340ee0fd07c5be783907f02f14477166ea989315b83a39348a
+SHA512: 22eeef13d1023c28ef32396cd236da5db7df7bf5090c96ddb3321c80c69f663fad29525ac23af71d7c9ea167aa477ba10b4cde6deb7e1bdbc9f0afe2d386638e
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (extra library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains standalone library which extends libfm.
+
 Package: libfm-gtk-data
 Architecture: all
 Version: 1.3.1-gtk3
@@ -162,6 +309,30 @@ MD5sum: 42fa1148b667feec0c774ea3f65d36a1
 SHA1: 030fa80afb24522bb8164388254ef01ba78ca61a
 SHA256: f99cab429fef943bfd6e8fd51454566775d3d407c1d4e94cd5fb3dbd7069f498
 SHA512: a5a541a91ad7c7b5946e63730aeac8a9fdc5822736eff89b3748d117678bcfb4a616c9a2511f56b80ac8bb8161a7214306f12d1a20a761dd79d1cb195b73b284
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ library common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the GTK+ library.
+
+Package: libfm-gtk-data
+Architecture: all
+Version: 99.1.3.2-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 161
+Breaks: libfm-gtk-bin (<< 1.0), libfm-gtk0
+Replaces: libfm-gtk0
+Filename: pool/main/libfm-gtk-data_99.1.3.2-gtk3_all.deb
+Size: 35660
+MD5sum: e01082c1a0d489f66757e07bf36ff7d9
+SHA1: 3ce053793bb38c98c27fd1894502230083029b66
+SHA256: e769d76915df18eedefb56ee2c7fb5a6545c5f7d1f15b7c785cf97d874d762ec
+SHA512: 1cc355aaebf1510ba38f8b80e55f1cc2a883ca5cc5d9f451fb108d12210baf88c867d450b0b71e8b684163cf784aaed4ffdabf3dbf027ee1b72598fe3faec362
 Homepage: http://pcmanfm.sourceforge.net/
 Description: file management support (GTK+ library common data)
  LibFM provides file management functions built on top of Glib/GIO,
@@ -194,6 +365,31 @@ Description: file management support (libfm-gtk debug)
  This package contains the debugging symbols for GTK+ library.
 Build-Ids: 7d1c0833c39571078e686307948c12622a74b926
 
+Package: libfm-gtk-dbg
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 738
+Depends: libfm-gtk4 (= 99.1.3.2-gtk3)
+Breaks: libfm-dbg (<< 1.0.2)
+Filename: pool/main/libfm-gtk-dbg_99.1.3.2-gtk3_amd64.deb
+Size: 640804
+MD5sum: 960dc9580a0e545c5c7dee7910583ab6
+SHA1: 46345fcbb066639f81c60f91e743d25914672823
+SHA256: 8e206f784c67fc27712c4515c7f8f9e2466b84807f133ae159af6d97c0bcee0a
+SHA512: aa3fbbd59f6f7e1e61f854dbc7634304be912a24ab6fe1288868f58afd58b2d2a148157cdefd6456d1f5ff1ee38a4bd49f47eafd1d970b18c579aa3e7f19ed64
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm-gtk debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for GTK+ library.
+Build-Ids: 1adcecae28918e53cddaab64ac51535884d041c3
+
 Package: libfm-gtk-dev
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -211,6 +407,30 @@ MD5sum: 52747568cb20bbcb7ee118e5a9af4e97
 SHA1: 861927b72d25ebe57eeaf8561bd6f1876997418c
 SHA256: a3e246849b5dbcac613216e012568ca1efb3f9bf5d8a0a3424402ca8281fd5b2
 SHA512: 36ebee31b99e52edfe5a452220fda4e48a9a6aee28c2d0dd2d2713975ea39b3bee95e8321ac8a990b0336cbb388d81a238e158828e570010af2b674d6936a1d9
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ GUI development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for builds using GTK+ library.
+
+Package: libfm-gtk-dev
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 37
+Depends: libfm-dev (= 99.1.3.2-gtk3), libfm-gtk4 (= 99.1.3.2-gtk3), libgtk-3-dev
+Breaks: libfm-dev (<< 1.0.2)
+Filename: pool/main/libfm-gtk-dev_99.1.3.2-gtk3_amd64.deb
+Size: 23136
+MD5sum: 91df3973e43b193a0f4e27e531f70594
+SHA1: 6cef90d53bc3b002a423199d9094f5cc5c32685c
+SHA256: 3e2b6e72dcd3bb7b45db9035a431ced685860158e1846804ea25bbae45b91247
+SHA512: cc7b647128d57d5720158673b55bec752d42c5744afd771e534420a3d5bab8048f6f08ecff64fc805cd390b9a70d864944548520d86ebc9c0698f13064b4604e
 Homepage: http://pcmanfm.sourceforge.net/
 Description: file management support (GTK+ GUI development files)
  LibFM provides file management functions built on top of Glib/GIO,
@@ -243,6 +463,31 @@ Description: file management support (GTK+ 2.0 GUI library)
  .
  This package contains the GTK+ version 2.0 GUI.
 
+Package: libfm-gtk4
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 482
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.29), libcairo2 (>= 1.10.0), libfm4 (= 99.1.3.2-gtk3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.1.4), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libfm-gtk-data (>= 1.2.0~)
+Recommends: eject
+Suggests: libfm-tools, nautilus-actions
+Filename: pool/main/libfm-gtk4_99.1.3.2-gtk3_amd64.deb
+Size: 165024
+MD5sum: 00fd9dce60ab564be505b9f2e98f75f4
+SHA1: 4d702f784196e53ff4711c2c6a6d31c222176ac1
+SHA256: 1253040fb25b6d90a6a9693ef3d1e90fca9dfc505d67df823b11249cb1b43cee
+SHA512: d009c5e8cb0774b17dec1846fa6b970ed5fc3496f9ea14d234bdabce132ec6563c802b8d336d58632755b58194d2a35135c832c535690d072f371e272ba414a2
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (GTK+ 2.0 GUI library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains the GTK+ version 2.0 GUI.
+
 Package: libfm-modules-dbg
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -267,6 +512,30 @@ Description: file management support (libfm-modules debug)
  This package contains the debugging symbols for libfm modules.
 Build-Ids: 528d64dbfa872e8aee04836f747d8eb8c640a434 600245b709fd0b5749a6eaa5509f21f95d612746 a2d6b075ad75741fce329a23a7c41f475cb5386c d6aaef573bd77cc5aad311afa2d6fa0a7de9f198 dd69da65ba8efd3f91e415f1ed1874c16f2f0862 e1dec5ab1a6c6d4aa73c32b7114ba158b195e98a
 
+Package: libfm-modules-dbg
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 208
+Depends: libfm-modules (= 99.1.3.2-gtk3)
+Filename: pool/main/libfm-modules-dbg_99.1.3.2-gtk3_amd64.deb
+Size: 140140
+MD5sum: f581ac3f97848ca16825e0b02572e6c5
+SHA1: a8f2c2891d489c75dbe77f63ef2b8f5488c50ea8
+SHA256: 276ff60c05d2ec822e1b5ee787500f3c87aef7f78a05dc45b691d196968f33a3
+SHA512: 2113eb5827164f185892f0d77a31c225cf9a80b9b8e4516920cc1a7dddb12deb721007a8c8640c85d3cfe5fd3fafa2f39c78ef408086b917d3da891ca5cee8b5
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (libfm-modules debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for libfm modules.
+Build-Ids: 13ebdd7d5dc5cc3ef72e27122af1e0030d93fb47 21ec9500dee0f776e2720b00328c80e597354b54 26288cfaf827a8b9448314aa324254ff150e06b1 5b3cdb654098adb28c379f44256679bd611ab37b b6953263ba7f8202308294baaea9680dd60c761c c33ac3f775842693d04f296d9afc11385f131608
+
 Package: libfm-modules
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -283,6 +552,29 @@ MD5sum: 0b5a7fccd03c43e8bd2cc63413863564
 SHA1: c45e0feda53b997e9403bc06fc9c87ae0273c5ed
 SHA256: 744639cfcb07d7a6ae2b035c0bfe463f1320fb3402582ea2750bc824a44a914a
 SHA512: f42f859a2f78bc2bc97a772ad52579e573f2f771085c0737ccd5409f13e3babdd2a5aee934217b720b7c83a8b590647036efd8fbe8c4866dec9652837dd3c32e
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (loadable modules for library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains loadable modules used by libfm* libraries.
+
+Package: libfm-modules
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 187
+Depends: libc6 (>= 2.7), libfm-extra4 (>= 1.2.0), libfm-gtk4 (>= 99.1.3.2-gtk3), libfm4 (>= 1.3.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libmenu-cache3 (>= 0.5.0)
+Filename: pool/main/libfm-modules_99.1.3.2-gtk3_amd64.deb
+Size: 53032
+MD5sum: d75f0fdd938e81da40ee6d888f9dc486
+SHA1: 9ac42610341c9535e383dc7be3531e95f4c7f5b7
+SHA256: a3f62080212348526bfba2d3328daaac959c1251b483928ac931c51303fff701
+SHA512: 44f236c0b1307f24a3c6eb741bb394e89abe2b8d8fa5cdc93fc3699cd466e368d5fe225b79eb992f5524aa08410eaa39619d97dbac11babdd5cda6fd37549075
 Homepage: http://pcmanfm.sourceforge.net/
 Description: file management support (loadable modules for library)
  LibFM provides file management functions built on top of Glib/GIO
@@ -309,6 +601,25 @@ SHA512: 92f671ed2d8c7a6556aead114084f51e8f96e9fd659c7cce2e744068a7da64fdd6070068
 Description: debug symbols for libfm-tools
 Build-Ids: 10009dcb01808b9a8adde433f4fd4a9cecbad092 37908a12984d18a6cabd2f9ccf115c750962dd08
 
+Package: libfm-tools-dbgsym
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: libfm-tools (= 99.1.3.2-gtk3)
+Filename: pool/main/libfm-tools-dbgsym_99.1.3.2-gtk3_amd64.deb
+Size: 15956
+MD5sum: caf70278503f79cf1dd9d4d0f322f5c1
+SHA1: 03e5db08931abdf5a2461d14299cde9588d0b9da
+SHA256: a6fa9b7055f39dd771330ed1fe22dd5ec534769bed1f3443eb9df119d2c46657
+SHA512: 8baed7367d668dc1a7d84bb12cd6bdc8601ac853cb83617b93d2a514407ff30dd28a84a6c5e4b41d84d32f4dc2bc03f5c7448abba516fb1e7c7f6a15d1336e31
+Description: debug symbols for libfm-tools
+Build-Ids: 925ba750634f932149219f2b4cb0a90d225f5e9c dac6476ffff9ac01a0610a489489111d1dd2d190
+
 Package: libfm-tools
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -327,6 +638,31 @@ MD5sum: 0f4d1f2e2c90ad42b7b6c6f1695a6660
 SHA1: 30f36717b45282af628823386c6ef4fcbc8c2a62
 SHA256: 55c7a0e609fccebd99310c0ffc9e4f9e8ce770aca6c195ae6b0d2156e02a9f17
 SHA512: 9ad4bdbd0bcd8403013490e6302071c60aefef0d5caec2e003ba987573f7e9d5425eaa404673621d7d4d19f86906aab48379b2bf4cc55699105d22850fc83380
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (utilities)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains applications libfm-pref-apps and lxshortcut.
+
+Package: libfm-tools
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Priority: optional
+Section: misc
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 87
+Provides: libfm-gtk-bin, lxshortcut
+Depends: libc6 (>= 2.4), libfm-gtk4 (>= 99.1.3.2-gtk3), libfm4 (>= 0.1.99), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.9.10), libfm-modules
+Conflicts: libfm-gtk-bin, lxshortcut
+Replaces: libfm-gtk-bin, lxshortcut
+Filename: pool/main/libfm-tools_99.1.3.2-gtk3_amd64.deb
+Size: 34628
+MD5sum: 55939062e50a215570c40e6124ab1e43
+SHA1: d3198fa9e8eb592b7e190b243d9e4376cf15fa23
+SHA256: 2f9b619305638ca6f37dd1fa09a8ee6edbc46cf3e09d4c3d2b44bca3c4edc03c
+SHA512: 8296d4c5ac4d978081a68e1b713019e3cae42c42fe69ee5d8a3827f7c5d59a1c4313473985548d68dc0a762b2f01fcf8c8514cbb9055438e98eb63eca9f352ef
 Homepage: http://pcmanfm.sourceforge.net/
 Description: file management support (utilities)
  LibFM provides file management functions built on top of Glib/GIO
@@ -369,6 +705,41 @@ Description: file management support (core library)
  .
  This package contains the core library.
 
+Package: libfm4
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 368
+Depends: libc6 (>= 2.14), libdbus-glib-1-2 (>= 0.78), libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.37.3), libmenu-cache3 (>= 0.5.0), libfm-data (>= 1.2.0~), lxmenu-data
+Recommends: libfm-modules
+Filename: pool/main/libfm4_99.1.3.2-gtk3_amd64.deb
+Size: 132656
+MD5sum: ad5d675ff1fa807662b8cdac159e88b9
+SHA1: efacbd61b29595d53051f6a6c7ef6719748b77dc
+SHA256: e159163b125687d9048a3bcaff3987347914f24685c3029322255064fa3ec4de
+SHA512: ce0acfbb3912700e1db62c263bacf4131113ac2daf34beddb8c59fec05193250cb1dcdb45c72fcc5c4b7ce2b7d5bd4d04d5930198bd86d938d9b25658d056bd1
+Homepage: http://pcmanfm.sourceforge.net/
+Description: file management support (core library)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ Some features:
+  * Desktop-independent, following FreeDesktop standards;
+  * Fast, light on memory usage, and responsive - well suited to
+    less powerful hardware such as netbooks and thin clients;
+  * Uses GIO/GVFS (like Nautilus) for Trash support and access to
+    remote file systems (FTP, SFTP, WebDAV, Windows shares, etc.);
+  * Clipboard operations are compatible with GTK+/GNOME and Qt/KDE;
+  * Supports both Drag-and-Drop, and the X Direct Save protocol;
+  * Reusable design with the core functions separated out to
+    simplify porting to other GUIs.
+ .
+ This package contains the core library.
+
 Package: lxappearance-dbg
 Architecture: amd64
 Version: 0.6.3-gtk3
@@ -391,6 +762,29 @@ Description: LXDE GTK+ theme switcher (debug)
  .
  This package contains the debugging symbols.
 Build-Ids: b3b63c4742aa75465ec6292d8af1ad3b174ac777
+
+Package: lxappearance-dbg
+Architecture: amd64
+Version: 99.0.6.3-gtk3
+Priority: extra
+Section: debug
+Source: lxappearance
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 79
+Depends: lxappearance (= 99.0.6.3-gtk3)
+Filename: pool/main/lxappearance-dbg_99.0.6.3-gtk3_amd64.deb
+Size: 55412
+MD5sum: 6dd50ac2d1076a21bc9898f77d27f811
+SHA1: 85f42f90caf8f4986cd07665796a0b584b35dde0
+SHA256: 6d0f16807ce09b95f787dbcbaf6c3b6dcf6fa74616c0678842aeccc1882f1fe8
+SHA512: 9d50f354e86cca446316e90dca5d2366d1a6a765428aa0cf4401f4acac2e96cd7910666f290644585319089372813e2983d76e25153d260cb1ec3c6ff3ec3b62
+Homepage: http://www.lxde.org/
+Description: LXDE GTK+ theme switcher (debug)
+ LXAppearance is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: 402562b662c40d088433d29318bf00d1b83ac268
 
 Package: lxappearance
 Architecture: amd64
@@ -425,6 +819,39 @@ Description: LXDE GTK+ theme switcher
   * Choose toolbar style
   * See changes immediately in preview area
 
+Package: lxappearance
+Architecture: amd64
+Version: 99.0.6.3-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 547
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.0.0), libx11-6
+Recommends: gtk2-engines, lxde-settings-daemon
+Filename: pool/main/lxappearance_99.0.6.3-gtk3_amd64.deb
+Size: 82268
+MD5sum: 02f9be7496747dd3850dae5d68448757
+SHA1: 271a1a3acf805e010feb0da4aa790937ab6f51eb
+SHA256: ceb79d6dde3198d6cfb5196812e40b40b085f752caadafaea91f0632979b6e1b
+SHA512: f9b4d4e22d85473516b99acfc524abcaade7c210c4931c7eded906338ee9caa3ce344609a7e06a57f951a33f68ab2d41f5eb12f562633db9d76b89ddecf53079
+Homepage: http://www.lxde.org/
+Description: LXDE GTK+ theme switcher
+ LXAppearance is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is a new feature-rich GTK+ theme switcher able to change GTK+ themes, icon
+ themes, and fonts used by applications. GNOME/KDE/Xfce user may use build-in
+ theme, this works for GTK+ based lightweight desktop Environment.
+ .
+ Features:
+ .
+  * Choose GTK+ theme
+  * Choose icon theme
+  * Install new icon theme
+  * Choose their favorite font
+  * Choose toolbar style
+  * See changes immediately in preview area
+
 Package: lxde-common
 Architecture: all
 Version: 0.99.2-gtk3
@@ -440,6 +867,30 @@ MD5sum: afd8a30536b09b3d18e0fc32ba82964d
 SHA1: a5bae79bbb42287d998fcac8f2651ca50f1855be
 SHA256: 72ff7d652b4d434efad0809524f37c476c159cd85a3fa816615c1e16b1f57122
 SHA512: 9eccdea87009f250b8e679e33ab7841fd75d4c4a1f91d3e927bc52f76b8114227e89f76ccf96369bd7bc594e25b2b78dd4cb0d7d23872be2d5162138bc1f5e61
+Homepage: http://www.lxde.org/
+Description: LXDE common configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package provides convenient set of configuration files for core
+ LXDE components (pcmanfm and lxpanel). Install all the recommended
+ packages as well to run a minimal LXDE session.
+
+Package: lxde-common
+Architecture: all
+Version: 99.0.99.2-gtk3
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 913
+Recommends: lxde-session, lxde-core, pcmanfm, lxpanel, lxtask, lxrandr, lxsession-logout, lxlock
+Suggests: lxlauncher
+Filename: pool/main/lxde-common_99.0.99.2-gtk3_all.deb
+Size: 807948
+MD5sum: 0697d1d8ca77f20349b58d4be0dbe4ca
+SHA1: dc9e7b461398265cec501a3730169614bce94d7f
+SHA256: d8ddc84e3ff70101e83a4482b16b025564b1f4297c6f703ff0d0a429f8adf8c4
+SHA512: e1ed08ca17427bfe03c0c81b0ff0e3da312089d454ec15dc77b1c65a8019ddca3aad7763f24a4bb9221c54d9b49bc6d6371bb40d0cb2d29141e5f734fe90595d
 Homepage: http://www.lxde.org/
 Description: LXDE common configuration files
  LXDE (the Lightweight X11 Desktop Environment) is a project aimed
@@ -590,6 +1041,30 @@ Description: LXDE panel (data files)
  .
  This package contains the data required for panel.
 
+Package: lxpanel-data
+Architecture: all
+Version: 99.0.10.1-gtk3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2810
+Breaks: lxpanel (<< 0.7.0)
+Replaces: lxpanel (<< 0.7.0)
+Filename: pool/main/lxpanel-data_99.0.10.1-gtk3_all.deb
+Size: 1066904
+MD5sum: 41af2d21323979f5273e4e8335873e5c
+SHA1: 479991e41880915ec41c187558f9ed50df45f115
+SHA256: 7c21a770c8c793657e3bcb11401efa8347b1e075332279caad59dcbdefbe56c3
+SHA512: 0b91ba481c233f6bdbc77d03f2430f2bd2601e2871e8bcde85b398bb380aa2cfcc3de662e3b74c35e05f51ce1eefb86c26cdca9ebc9597a60a77bb6dea37da53
+Homepage: http://www.lxde.org/
+Description: LXDE panel (data files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the data required for panel.
+
 Package: lxpanel-dbg
 Architecture: amd64
 Version: 0.10.0-gtk3
@@ -612,6 +1087,25 @@ Description: LXDE panel (debug)
  .
  This package contains the debugging symbols.
 Build-Ids: 06ad7350dee6ee6a6face245a06d3abd027d7e69 2a1798c9e1b9a289f264217a58c84c8a524a5519 32f72b3d38ecc442bac8ffd9d08f0db239432918 34a7ec077b9129e9f3b66e3dfb88fe6d57dfe726 399d433c18836004095d039a34d5042a414f0480 807cb2075b19a12d36f9080482c770d3ba4580ff 845dacfadefabb5f325fa7f1456b9d28b583289f 923f55b8bc89cfe5066390486f346802b80e647f a51e38fc53344ed81892a98005aa587cd5ffe679 a6e5b473ab2af9253e0bbea0feb161a53e754d84 b2638b3a43e0284dc71c4b87f224927ef6140d22 b9ad00e32f643f70a7a5215ac125e74ab2b8c2ac bc5baa13679da40ac81c8198765b1a97a03c5daa c8797d954a6486de151b2aeceba4277895a22546 d7cb078e3e6017cac65a34495389029bbe9d5383
+
+Package: lxpanel-dbgsym
+Architecture: amd64
+Version: 99.0.10.1-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1028
+Depends: lxpanel (= 99.0.10.1-gtk3)
+Filename: pool/main/lxpanel-dbgsym_99.0.10.1-gtk3_amd64.deb
+Size: 825460
+MD5sum: 1ff68695015f343c1ca371b8e75551f1
+SHA1: cc8c901620a24bae0783c61bf48f22ec7daa9fdb
+SHA256: 8d06f7e79ccddd64623bb11e8d1e45af7eaf82b4b98847cabbe6d4d0785fcf6c
+SHA512: 8870bcbac7ad4191d30b923050c8233650bf318a8c3cda8bd25b08b5278957acf77be99bcb9b3131cd45fd4598eaaa159d8563d8d5ec21355cd7afd28d492a40
+Description: debug symbols for lxpanel
+Build-Ids: 07761257cede7a8637ff8adef317d9401cdae166 1d8130e2e9c9093936903c4d92cfd7534fcfd33d 2a0c44edd8d300ef9c3ba896588efd23221d57d6 3014a2b85a439c573f9d36fe9f74b620c6f784a1 56f4faccd0e521135845974b4cffdc9488bc9a3f 57306341b66612f9c92be3a4d882083d042cc986 697df8fdab271ba277c1cc81dee504ed1c7479f1 85cdf92ad3807d4b394a99d53a6284bfb4a86395 8645a3411f863be79634eb6aa689e90a064bfa1d 9dbbbfa1cf1b829c84eb6b0c16011169b64776b6 d37f844a4720eb0b980482f91356d08cf10a0ca4 da825bd652c092620d1d9b5117a86fd61d862b14 eb6a4dfb6316894d2d59de98f7d4eb4d866afcf8 ed4397f1112bc6980463caa85160103da0f6e5a4 f360e7fdf463a222aa172e6fa5e8b77a9648a0f2
 
 Package: lxpanel-dev
 Architecture: amd64
@@ -638,6 +1132,32 @@ Description: LXDE panel (plugins development files)
  This package contains header files required for plugins development and
  depends on other relevant packages for such task.
 
+Package: lxpanel-dev
+Architecture: amd64
+Version: 99.0.10.1-gtk3
+Multi-Arch: same
+Priority: optional
+Section: x11
+Source: lxpanel
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 79
+Depends: libgtk2.0-dev, libfm-gtk-dev (>= 1.2.0)
+Breaks: lxpanel (<< 0.8.2)
+Replaces: lxpanel (<< 0.8.2)
+Filename: pool/main/lxpanel-dev_99.0.10.1-gtk3_amd64.deb
+Size: 30400
+MD5sum: e399cd6be7b8a112abc2726f06a923c1
+SHA1: 8bfaf5ff1dd91539496e1174710bc352c228d2e1
+SHA256: 1183f5f0fb26b10745a57e5e5632b30d52eecdc17b86e56cef9bcf62b9f46a74
+SHA512: f10f919524b933f312127960caf5e60e219e0f643f32d34e962e98b586f39028a55552ab5d434d5c2cef32a65d684783df9837c82f5d95a52bd33facdf625afa
+Homepage: http://www.lxde.org/
+Description: LXDE panel (plugins development files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains header files required for plugins development and
+ depends on other relevant packages for such task.
+
 Package: lxpanel
 Architecture: amd64
 Version: 0.10.0-gtk3
@@ -655,6 +1175,46 @@ MD5sum: f586487e357147a7dcd5bb558a9d511d
 SHA1: 988ba7ee07dc340c96de1f2125bca9dfb8c5c726
 SHA256: 4824c65d4d9e0820f55bd8160d1d4081cf6549ab716f8b40b93e662880dc9f60
 SHA512: 3cc3c0428bf71deddf0786095f2f1c713c8a242c351451caf55c08fa3ca4613792e6a5f35bcfb3c1ca30734322e7776e8799118b73987705bfd63ad66346ff19
+Homepage: http://www.lxde.org/
+Description: LXDE panel
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is derived from fbpanel and includes the following features:
+ .
+  * User-friendly application menu automatically generated from .desktop
+    files on the system
+  * Launcher bar (small icons clicked to launch apps)
+  * Task bar supporting ICCCM/EWMH `urgency' hint (Pidgin IM windows
+    can flash on new incoming messages)
+  * Run dialog (type a command to run, without opening a terminal)
+  * Net status icon plug-in (optional).
+  * Volume control plug-in (optional).
+  * Notification area (system tray).
+  * Digital clock.
+  * Keyboard LEDs plug-in (display caps/num locks).
+  * lxpanelctl: control lxpanel from other programs.
+    For example, "lxpanelctl run" will show the Run dialog in lxpanel,
+    and "lxpanelctl menu" will show the application menu. This is
+    useful in combination with window manager key bindings.
+
+Package: lxpanel
+Architecture: amd64
+Version: 99.0.10.1-gtk3
+Multi-Arch: allowed
+Priority: optional
+Section: x11
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 816
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcurl4 (>= 7.16.2), libfm-gtk4 (>= 99.1.3.2-gtk3), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.9.12), libiw30 (>= 30~pre1), libkeybinder-3.0-0 (>= 0.3.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libx11-6, libxml2 (>= 2.7.4), lxmenu-data, lxpanel-data (= 99.0.10.1-gtk3), libfm-modules
+Recommends: xkb-data, lxterminal | x-terminal-emulator, pavucontrol | gnome-alsamixer, libnotify-bin, notification-daemon
+Suggests: menu, firefox-esr | firefox | www-browser
+Filename: pool/main/lxpanel_99.0.10.1-gtk3_amd64.deb
+Size: 218712
+MD5sum: d4afad0d7ac4de1a55fbabe9f2f719fb
+SHA1: 2fcd10593ebcd6c7f1893c77e6dc54e6b69330de
+SHA256: 351d5d3a8defa562ee03e1cbcbfbce418fe833d7d1210c82d538e6bd40d77dc4
+SHA512: 96598d9eb9834a6dbbfc152ad64bf07c6a86a91fde3c4627e6577241bcc378fdaf2c8ceff009ff52435d4eb762b4f0d9affe865b363a066070d8efeec18eabe2
 Homepage: http://www.lxde.org/
 Description: LXDE panel
  LXPanel is a GUI application for the Lightweight X11 Desktop Environment
@@ -1115,6 +1675,49 @@ Description: LXDE session manager and configuration files
  configuration files required to start a LXDE desktop session from a
  display manager such as GDM.
 
+Package: openbox-lxde-session
+Architecture: all
+Version: 99.0.99.2-gtk3
+Priority: optional
+Section: x11
+Source: lxde-common
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 71
+Provides: lxde-session, x-session-manager
+Depends: lxde-common (>= 0.99.2-1), lxsession, openbox
+Breaks: lxde-common (<< 0.99.2-1)
+Replaces: lxde-common (<< 0.99.2-1)
+Filename: pool/main/openbox-lxde-session_99.0.99.2-gtk3_all.deb
+Size: 18552
+MD5sum: aa93c3f8ca1f616f39ecf8849934e78a
+SHA1: 69a729c4f8d95cca44ca0bdaeb867ebc2ee8b627
+SHA256: b9431529124dab36805c67596e33243cea0ad876439f7315c2aaf67017153ce2
+SHA512: 2e06335d8c0e6dd4e760f6d887bb2d677034798737199b3754ddc5df879bf9b55f411953fff670b66c2605e6f7a486ede08a382eded7295e0a94a128fba06c0e
+Homepage: http://www.lxde.org/
+Description: LXDE session manager and configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ It's not designed to be powerful and bloated, but to be usable and slim
+ enough, and keep the resource usage low. Different from other desktop
+ environments, LXDE doesn't tightly integrate every component. Instead,
+ LXDE tries to make all components independent, and each of them can be
+ used independently with fewer dependencies.
+ .
+ Features:
+ .
+  * Lightweight, runs with reasonable memory usage
+  * Fast, runs well even on older machines produced in 1999
+  * Good-looking, GTK+ 2 internationalized user interface
+  * Easy-to-use, the user interface is simple, but usable enough
+  * Desktop independent (surprise! Every component can be used without LXDE)
+  * Standard compliant, follows the specs on freedesktop.org
+ .
+ This package depends on minimal set of components (lxsession, openbox,
+ and lxde-screenlock.desktop file), and contains all the session-specific
+ configuration files required to start a LXDE desktop session from a
+ display manager such as GDM.
+
 Package: pcmanfm-dbg
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -1138,6 +1741,47 @@ Description: extremely fast and lightweight file manager (debug)
  This package contains the debugging symbols.
 Build-Ids: b6ae266507da7e84f1435075c9dd5c1c7a53f511
 
+Package: pcmanfm-dbg
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Priority: optional
+Section: debug
+Source: pcmanfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 10
+Depends: pcmanfm (= 99.1.3.2-gtk3)
+Filename: pool/main/pcmanfm-dbg_99.1.3.2-gtk3_amd64.deb
+Size: 1188
+MD5sum: 5ce6ab230bbb7a9659f5a7615cb63c69
+SHA1: cfeaa3c69b13afbc7d7b1098d997bf38dd146b32
+SHA256: 7138bc62705b8712df5a231d6ff55028e2fc7ae6c8d3cd473b5d2eac21043543
+SHA512: b88317ee30061bdf24f25d2a11dcda409732901494fa6d8593bde0d90e241142bc6db7ab5fca9fb6378e72ada2b13716aaaf2c162fdb8bc14140ca5eaa84ed99
+Homepage: http://pcmanfm.sourceforge.net/
+Description: extremely fast and lightweight file manager (debug)
+ PCMan File Manager is a GTK+ based file manager. It is a primary file
+ manager for the LXDE but can be used in any other desktop environment.
+ .
+ This package contains the debugging symbols.
+
+Package: pcmanfm-dbgsym
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: pcmanfm
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 356
+Depends: pcmanfm (= 99.1.3.2-gtk3)
+Filename: pool/main/pcmanfm-dbgsym_99.1.3.2-gtk3_amd64.deb
+Size: 300008
+MD5sum: ca7a5799650a109287cfec941629afd4
+SHA1: d6b3533b773721562ed43999b503a62e14780785
+SHA256: d9a756b64764e1b0d45e9236855423e700eee17172400065e0bdd3126f1cf641
+SHA512: 3f1773df0e9bb14e19f4f31be51662487f8edd9c9c3980f37151d4840a8901db8c0ca3b510b321d1c6100a428450d4b29d87a9b7df71d1a3db340f43ce0cdf3f
+Description: debug symbols for pcmanfm
+Build-Ids: ec9e224d6cb3db73e3786123dc1e664823c68f5e
+
 Package: pcmanfm
 Architecture: amd64
 Version: 1.3.1-gtk3
@@ -1153,6 +1797,40 @@ MD5sum: 27b110dd7675e6555104896d6304fd00
 SHA1: cf18e4cb129f86c4ff79334f3b9a021d191d6283
 SHA256: 5e8737202a772c7dc877559fb85992e107acd875c6aff1bb383c3cc89a600b24
 SHA512: a99f999775b0e96af3ada186c8f884816602808de3646fd64b44a511b286bb5a24836ad3016509140051d1e36bed7da354abcca159de90da5e37fbc3b7cbcfe1
+Homepage: http://pcmanfm.sourceforge.net/
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: pcmanfm
+Architecture: amd64
+Version: 99.1.3.2-gtk3
+Priority: optional
+Section: utils
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1593
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 99.1.3.2-gtk3), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Filename: pool/main/pcmanfm_99.1.3.2-gtk3_amd64.deb
+Size: 291848
+MD5sum: b540daefebbe2cdcb07d8056ee7a9639
+SHA1: c9b370a8d93b2a0f059cce34cf395cfea0582589
+SHA256: d756bd518dc4c213b5235e41adcf59f37819011eb86c5159d42bcf7bd1001b2d
+SHA512: a834aa8883093e4e311f4a0e5f58bc10d4da3803087127b91c5cc0a4aefb484d8500b6bece8e9d324ad849997e225e206bfd5a793ab7da498adc96c91b4f8448
 Homepage: http://pcmanfm.sourceforge.net/
 Description: extremely fast and lightweight file manager
  PCMan File Manager is a GTK+ based file manager, featuring:
